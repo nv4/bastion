@@ -108,7 +108,7 @@ ENV TIMEZONE="Etc/UTC" \
     TERM="xterm" \
     HOSTNAME="bastion"
 
-ENV MFA_PROVIDER="duo"
+ENV MFA_PROVIDER="google-authenticator"
 
 ENV UMASK="0022"
 
@@ -144,7 +144,7 @@ ENV SLACK_ENABLED="false" \
     SLACK_FATAL_ERRORS="true"
 
 ## SSH
-ENV SSH_AUDIT_ENABLED="true" \
+ENV SSH_AUDIT_ENABLED="false" \
     SSH_AUTHORIZED_KEYS_COMMAND="none" \
     SSH_AUTHORIZED_KEYS_COMMAND_USER="nobody"
 

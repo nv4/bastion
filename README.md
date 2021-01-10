@@ -148,7 +148,7 @@ The SSH auditor uses [`sudosh`](https://github.com/cloudposse/sudosh/) to record
 
 | ENV                   |      Description                                    |  Default     |
 |-----------------------|:----------------------------------------------------|:------------:|
-| `SSH_AUDIT_ENABLED`   |  Enable the SSH Audit facility                      | `true`       |
+| `SSH_AUDIT_ENABLED`   |  Enable the SSH Audit facility                      | `false`      |
 
 This will require that users login with the `/usr/bin/sudosh` shell.
 
